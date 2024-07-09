@@ -353,5 +353,242 @@
     width: 1320px;
     height: 986.07px;
     margin: 0 auto;
-    border: 2px solid red;
+    position: relative;
+}
+
+.solid-color {
+    width: 1320px;
+    height: 229px;
+    position: absolute;
+    top: 77%;
+    background-color: red;
+}
+
+.giftbox {
+    position: relative;
+    width: 1320px;
+    height: 662.07px;
+    z-index: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.giftbox img {
+    position: relative;
+    width: 600px;
+    height: 700px;
+}
+
+.discount {
+    width: 305px;
+    height: 305px;
+    margin-top: 200px;
+}
+
+.discount img {
+    width: 200px;
+    height: 200px;
+    border: 2px dashed goldenrod;
+}
+
+/* the best gits style */
+.main {
+    margin-top: 120px;
+}
+
+.thebes-container {
+    width: 1320px;
+    margin-top: 120px;
+    height: 1163px;
+    margin: 0 auto;
+}
+
+.thebes-p {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.thebes-title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+}
+
+.thebes-p2 {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    height: 64px;
+}
+
+.images-container {
+    margin-top: 50px;
+}
+
+img {
+    width: 400px;
+    border: 2px dashed grey;
+}
+
+/* subscribe newsletter */
+.subscribe-container {
+    width: 1320px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 616px;
+}
+
+.subscribe-content {
+    width: 896px;
+    height: 336px;
+}
+
+.subscribe-content img {
+    width: 150px;
+    height: 150px;
+    margin-left: 350px;
+}
+
+.subscribe-title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    margin-top: 30px;
+    font-weight: 900;
+    line-height: 60px;
+    text-align: center;
+}
+
+.subscribe-p {
+    width: 896px;
+    height: 64px;
+    margin-top: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+
+.input-area input {
+    width: 500px;
+    height: 50px;
+    border-radius: 25px 0 0 25px;
+    background: rgb(255, 255, 255);
+    color: red;
+    border: none;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.subscribe-input {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+/* ::placeholder{
+    color: white;
+} */
+.inputs-subscribe {
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    background: rgb(228, 1, 1);
+    margin-top: 19px;
+    color: white;
+    border-radius: 0 25px 25px 0;
+}
+
+/* footer style starts here */
+footer {
+    background: rgb(7, 2, 17);
+    padding: 150px;
+}
+
+.footer-content {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+    /* padding: 100px; */
+    justify-content: space-between;
+    height: 80px;
+}
+
+.footer-content {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+/* icons container */
+.icons-content {
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid gray;
+}
+
+.footer-content img{
+    width: 20px;
+}
+.footer-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 0px;
+}
+.footer-imgss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    padding-right: 9px;
+}
+
+.icons-content img {
+    width: 50px;
+}
+.all-right{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.all-right p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
 }
